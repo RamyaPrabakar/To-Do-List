@@ -5,7 +5,7 @@ const port = 3000
 const server = http.createServer(function(req,res){
     res.writeHead(200, {'Content-Type': 'text/html'})
     fs.readFile('index.html', function(error, data) {
-        if(error) {
+        if (error) {
             res.writeHead(404)
             res.write('Error: File Not FOund')
         } else {
@@ -16,7 +16,7 @@ const server = http.createServer(function(req,res){
 })
 
 server.listen(port, function(error) {
-    if(error) {
+    if (error) {
         console.log('something went wrong', error)
     } else {
         console.log('server is listening on port '+ port)
