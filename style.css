@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url("background6.jpeg");
+}
+
+header{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    color:white;
+}
+
+#inputDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+#input{
+    margin:10px;
+    border-radius: 25px;
+    background: white;
+    padding: 20px;
+    width: 320px;
+    height: 50px;
+    outline: none;
+    font-size: 20px;
+}
+
+#addButton{
+    background: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 20px;
+    outline: none;
+
+}
+
+#viewStage{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    border-bottom: 4px solid white;
+    font-size: 30px;
+}
+
+#viewTask{
+    background: none;
+    outline: none;
+    color: white;
+    font-size: 20px;
+    border: none;
+    margin-left: 10px;
+}
+
+#editButton{
+    background: none;
+    color: green;
+    outline: none;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+#removeButton{
+    background: none;
+    color: red;
+    outline: none;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+}
