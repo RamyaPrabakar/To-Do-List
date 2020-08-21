@@ -6,7 +6,7 @@
 
 
 body {
-    background-image: url("background6.jpeg");
+    background-image: url("background.jpeg");
 }
 
 header{
@@ -16,7 +16,7 @@ header{
     color:white;
 }
 
-#inputDiv{
+.inputDiv{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,7 +24,7 @@ header{
     padding: 20px;
 }
 
-#input{
+.input{
     margin:10px;
     border-radius: 25px;
     background: white;
@@ -35,7 +35,7 @@ header{
     font-size: 20px;
 }
 
-#addButton{
+.addButton{
     background: white;
     width: 50px;
     height: 50px;
@@ -45,7 +45,7 @@ header{
 
 }
 
-#viewStage{
+.viewStage{
     text-align: center;
     margin-right: auto;
     margin-left: auto;
@@ -54,7 +54,7 @@ header{
     font-size: 30px;
 }
 
-#viewTask{
+.viewTask{
     background: none;
     outline: none;
     color: white;
@@ -63,7 +63,7 @@ header{
     margin-left: 10px;
 }
 
-#editButton{
+.editButton{
     background: none;
     color: green;
     outline: none;
@@ -72,7 +72,7 @@ header{
     font-weight: bold;
 }
 
-#removeButton{
+.removeButton{
     background: none;
     color: red;
     outline: none;
