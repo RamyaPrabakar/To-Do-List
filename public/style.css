@@ -80,3 +80,8 @@ header{
     border: none;
     font-weight: bold;
 }
+
+.hiddentext{
+    display: none;
+}
+
