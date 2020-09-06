@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 const mysqlConnection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'tribias4',
+  password: 'password12',
   database: 'ToDoListDB',
   multipleStatements: true,
 });
